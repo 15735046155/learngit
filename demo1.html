@@ -10,6 +10,28 @@
   <div>
     第一次学习git
     修改文件
+    <div>
+      <!-- 添加所有文件到暂存区 -->
+      git add .
+      <!-- 添加某一个文件到暂存区 -->
+      git add a
+      <!-- 把暂存区的所有内容提交到当前分支 -->
+      git commit -m '本次修改说明'
+      <!-- 查看当前状态 -->
+      git status
+      <!-- 查看最近提交记录 -->
+      git log
+      <!-- 查看文件不同 -->
+      git diff
+      <!-- 退回到上一个版本 -->
+      git reset --hard HEAD^
+      <!-- 退回到上n个版本 -->
+      git reset --hard HEAD~n
+      <!-- 跳转至7d5e46版本 -->
+      git reset --hard 7d5e46
+      <!-- 所有操作记录 -->
+      git reflog
+    </div>
   </div>
 </body>
 </html>
